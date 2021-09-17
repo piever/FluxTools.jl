@@ -1,0 +1,13 @@
+name = "FluxTools"
+uuid = "120c222c-08b0-46af-b528-1753ed684f8f"
+authors = ["piever <pietro.vertechi@protonmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
